@@ -7,7 +7,7 @@ this.hasAte = false
 }
 
 module.exports = PlayerCell;
-PlayerCell.prototype = new Cell();
+PlayerCell.prototype = new Cell(null, null, null, null, null);
 
 // Main Functions
 
